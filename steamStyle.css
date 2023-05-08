@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+
+
+section{
+    height: 20rem;
+}
+
+section:nth-child(2n-1){
+    background-color: #000065;
+}
+
+section:nth-child(2n){
+    background-color: white;
+}
