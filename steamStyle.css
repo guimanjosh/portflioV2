@@ -11,6 +11,18 @@ section:nth-child(2n-1){
     background-color: #000065;
 }
 
+section:nth-child(2n -1) h2{
+    color: white;
+}
+
+section:nth-child(2n -1) p{
+    color: white;
+}
+
+section:nth-child(2n -1) ul li{
+    color: white;
+}
+
 section:nth-child(2n){
     background-color: white;
 }
