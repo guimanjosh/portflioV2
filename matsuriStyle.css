@@ -1,10 +1,31 @@
+html,body {
+    margin:0;
+    padding:0;
+}
 h1{
     text-align: center;
 }
 
+header{
+    height: 30rem;
+    background-image: url("images/matsuribg.jpg");
+}
+
+header h1{
+    color: gold;
+    font-weight: bold;
+}
+
+span{
+    color: black;
+}
+header h2{
+    color: white;
+    text-align: center;
+}
 
 section{
-    height: 20rem;
+    height: 22rem;
 }
 
 section:nth-child(2n-1){
