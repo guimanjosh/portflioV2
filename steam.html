@@ -9,33 +9,63 @@
     <title>Steam Case Study</title>
 </head>
 <body>
-    <h1>Steam Games Exploratory Data Analysis</h1>
-    
+    <header class="">
+        <h1>Exploratory Data Analysis</h1>
+    </header>
     <section>
-        <h2>Overview</h2>
-        <p>Video games have increased in popularity among today’s modern era. With that said, video games were a common interest my group and I had, so we carried out a data analysis project on Steam video games. With a large number of games offered and information about the games provided by Steam, my group and I wanted to explore what data we can extract and how we can use this data to generate insights about video games. We discovered that the Steam games platform offers a rich amount of information and has a large number of users, especially in the United States. Carrying out a study on the Steam games platform will be relevant and useful to the company, its users and to those who play video games in general. With this study in mind, we wanted to also connect how this connects back to the Steam games platforms overall user experience.
-        </p>
+        <div class="container">
+            <h2>Overview</h2>
+            <p>Video games have increased in popularity among today’s modern era. 
+                With that said, video games were a common interest my group and I had, so we carried out a data 
+                analysis project on Steam video games. With a large number of games offered and information about 
+                the games provided by Steam, my group and I wanted to explore what data we can extract and how we can use 
+                this data to generate insights about video games. We discovered that the Steam games platform 
+                offers a rich amount of information and has a large number of users, especially in the United States. 
+                Carrying out a study on the Steam games platform will be relevant and useful to the company, its 
+                users and to those who play video games in general. With this study in mind, we wanted to also connect 
+                how this connects back to the Steam games platforms overall user experience.
+            </p>
+        </div>
     </section>
 
     <section>
-        <h2>Problem Statement</h2>
-        <p>Can the surface level information about a game, such as its title or other information Steam provides such as its category or blurbs, determine how good it is? Can saying or reading its title predict how a user will feel about the game? Overall, can we make predictions about a video game’s quality considering multiple variables such as its title, genre, blurbs?</p>
+        <div class="container">
+            <h2>Problem Statement</h2>
+            <p>Can the surface level information about a game, such as its title or other information Steam 
+                provides such as its category or blurbs, determine how good it is? 
+                Can saying or reading its title predict how a user will feel about the game? 
+                Overall, can we make predictions about a video game’s quality considering multiple variables 
+                such as its title, genre, blurbs?</p>
+            </div>
     </section>
 
-    <section>
-        <h2>Approach</h2>
-        <p>To explore this problem, our group decided to carry out a sentiment analysis on the video game titles and other information about the game in order to see if we can make predictions if they will think a video game is good. Sentiment analysis can help us understand how text is interpreted and is categorized as positive, negative or neutral. Our group and I understood that personal taste is subjective and different users will have different feelings about a game, so we had to immediately address how to define what a good game is. To define what a good game is, it is a game with a large enough amount of reviews that has a review average of at least 4 stars or greater. Overall, my group and I applied appropriate statistical tests and data processing in order to generate meaningful insights about video game descriptions that the Steam platform offers.</p>
+    <section id="dataCollection">
+        <div class="container">
+            <h2>Data Collection</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/steamScrape1.png" class="img-fluid" alt="Website info">
+                </div>
+                <div class="col-lg-8">
+                    <img src="images/extractedData.png" class="img-fluid" alt="Extracted Data">
+                </div>
+            </div>
+            <p>To explore this problem, our group decided to carry out a sentiment analysis on the video 
+                game titles and other information about the game in order to see if we can make predictions 
+                if they will think a video game is good. Sentiment analysis can help us understand how text is 
+                interpreted and is categorized as positive, negative or neutral. Our group and I understood that 
+                personal taste is subjective and different users will have different feelings about a game, so 
+                we had to immediately address how to define what a good game is. To define what a good game is, 
+                it is a game with a large enough amount of reviews that has a review average of at least 4 stars 
+                or greater. Overall, my group and I applied appropriate statistical tests and data processing in 
+                order to generate meaningful insights about video game descriptions that the Steam platform offers.</p>
+        </div>
     </section>
 
-    <section>
-        <h2>Research and Development Process</h2>
+    <section id="dataCleaning">
+        <div class="container">
+            <h2>Data Cleaning</h2>
         <p>Group Contributions:</p>
-        <ul>
-            <li>Teammate A web scraped data from Steam's website using JavaScript.</li>
-            <li>Teammate B carried out sentiment analysis.</li>
-            <li>Teammate C concluded and summariezed our findings.</li>
-
-        </ul>
         <p>My Contributions:</p>
         <ul>
             <li>Developed Python scripts to clean the raw extracted data.</li>
@@ -44,11 +74,29 @@
             <li>Created visualizations with Python libraries in order to increase understanding of our statistics.</li>
 
         </ul>
+        </div>
     </section>
 
     <section>
-        <h2>Final Product and Impact</h2>
-        <p>The final product is an exploratory data analysis project that contributed to research on sentiment analysis on video games. Our group explored sentiment analysis on video games and found out this research field still needs more contributions as there are a lot of limitations and uncertainties in this field. There are other researchers who carried out a similar study and also acknowledge that there are limitations and uncertainties to be considered for this study. To get back to the main point of the study and to conclude, our group found out that the multiple surface level variables of video games such as its title, genre and blurb are capable of making a prediction of its overall quality. Furthermore, surface level information about a video game is easily accessible and Steam games or other gaming platforms can use this insight to promote certain games or make the “good” games even more accessible.</p>
+        <div class="container">
+            <h2>Exploratory Data Analysis</h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Conclusion</h2>
+            <p>The final product is an exploratory data analysis project that contributed to research on sentiment 
+            analysis on video games. Our group explored sentiment analysis on video games and found out 
+            this research field still needs more contributions as there are a lot of limitations and 
+            uncertainties in this field. There are other researchers who carried out a similar study and also 
+            acknowledge that there are limitations and uncertainties to be considered for this study. To get 
+            back to the main point of the study and to conclude, our group found out that the multiple surface 
+            level variables of video games such as its title, genre and blurb are capable of making a prediction 
+            of its overall quality. Furthermore, surface level information about a video game is easily accessible 
+            and Steam games or other gaming platforms can use this insight to promote certain games or make the 
+            “good” games even more accessible.</p>
+        </div>
     </section>
 
     <!--Bootstrap Javscript-->
