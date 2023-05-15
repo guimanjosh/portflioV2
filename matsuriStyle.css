@@ -62,6 +62,34 @@ header h2{
     background-size: cover;
 }
 
+#oldMatsuriBG{
+    background-image: url("images/oldMatsuriBG.jpeg");
+    height: 15rem;
+    width: 30rem;
+    background-size: cover;
+}
+
+#newMatsuriBG{
+    background-image: url("images/matsuribg.jpg");
+    height: 15rem;
+    width: 30rem;
+    background-size: cover;
+}
+
+#includeJapan{
+    background-image: url("images/includeJapan.png");
+    height: 21rem;
+    width: 21rem;
+    background-size: cover;
+}
+
+#includeJapan2{
+    background-image: url("images/includeJapan2.png");
+    height:21rem;
+    width: 42rem;
+    background-size: cover;
+}
+
 section{
     height: 25rem;
 }
@@ -76,4 +104,8 @@ section:nth-child(2n){
 
 #audience{
     height:40rem;
+}
+
+#prototyping{
+    height: 75rem;
 }
