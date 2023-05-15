@@ -45,11 +45,91 @@
             <div class="row">
                 <div class="col-lg-4">
                     <img src="images/steamScrape1.png" class="img-fluid" alt="Website info">
+                    <p>fig. 1</p>
                 </div>
                 <div class="col-lg-8">
-                    <img src="images/extractedData.png" class="img-fluid" alt="Extracted Data">
+                    <img src="images/extractedData.PNG" class="img-fluid" alt="Extracted Data">
+                    <p>fig. 2</p>
                 </div>
             </div>
+            <p>My teammate Ivy scraped data from Steam's website (fig. 1) using Python/Beautiful Soup and loaded the raw
+                 data into a csv file (fig. 2). They let the program run througout the night in order
+                  to collect about 75,000 games.
+            </p>
+        </div>
+    </section>
+
+    <section id="dataCleaning">
+        <div class="container">
+            <h2>Data Cleaning</h2>
+            <h5>"Incomplete data (any data rows with empty cells or null values), will obviously need to be cleaned.
+                 What other values do we have to clean? What about games whose title does not use the Latin
+                 alphabet?"</h5>
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="images/nonEnglishGame.png" alt="Non English Game" class="img-fluid">
+                </div>
+            </div>
+            <p>We decided to not include these games as removing the non-Latin characters from its name would be too difficult.
+            </p>
+            <h5>"What about games whose titles have Latin characters but is not fully in English?"</h5>
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="images/yugiohSteam.png" alt="Yugioh Data Row" class="img-fluid">
+                </div>
+            </div>
+            <p>We figured that filtering out non-English games that still use the Latin alphabet would prove to be
+                 too dificult to remove from our analysis. Moreover, we decided to keep such data through the Exploratory
+                  Data Analysis.
+            </p>
+       
+        </div>
+    </section>
+
+    <section id="eda">
+        <div class="container">
+            <h2>Exploratory Data Analysis</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/plot1.png" alt="Plot 1" class="img-fluid">
+                    <p>fig. 5</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/plot2.png" alt="Plot 2" class="img-fluid">
+                    <p>fig. 6</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/plot3.png" alt="Plot 3" class="img-fluid">
+                    <p>fig. 7</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/plot4.png" alt="Plot 4" class="img-fluid">
+                    <p>fig. 8</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/plot5.png" alt="Plot 5" class="img-fluid">
+                    <p>fig. 9</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/plot6.png" alt="Plot 6" class="img-fluid">
+                    <p>fig. 10</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/plot7.png" alt="Plot 7" class="img-fluid">
+                    <p>fig. 11</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/plot8.png" alt="Plot 8" class="img-fluid">
+                    <p>fig. 11</p>
+                </div>
+            </div>
+            
             <p>To explore this problem, our group decided to carry out a sentiment analysis on the video 
                 game titles and other information about the game in order to see if we can make predictions 
                 if they will think a video game is good. Sentiment analysis can help us understand how text is 
@@ -59,27 +139,6 @@
                 it is a game with a large enough amount of reviews that has a review average of at least 4 stars 
                 or greater. Overall, my group and I applied appropriate statistical tests and data processing in 
                 order to generate meaningful insights about video game descriptions that the Steam platform offers.</p>
-        </div>
-    </section>
-
-    <section id="dataCleaning">
-        <div class="container">
-            <h2>Data Cleaning</h2>
-        <p>Group Contributions:</p>
-        <p>My Contributions:</p>
-        <ul>
-            <li>Developed Python scripts to clean the raw extracted data.</li>
-            <li>The programming aspect was important for data cleaning, data processing and creating meaningful statistics.</li>
-            <li>I developed a system that can filter out dirty data considering that some data extracted from the Steam games platform may cause problems for our sentiment analysis.</li>
-            <li>Created visualizations with Python libraries in order to increase understanding of our statistics.</li>
-
-        </ul>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <h2>Exploratory Data Analysis</h2>
         </div>
     </section>
 

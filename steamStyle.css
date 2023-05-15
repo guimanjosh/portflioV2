@@ -12,6 +12,10 @@ header h1{
     text-align: center;
     padding-top: 17rem;
 }
+
+h2{
+    padding-top: 3rem;
+}
 section{
     height: 25rem;
 }
@@ -28,6 +32,10 @@ section:nth-child(2n -1) p{
     color: white;
 }
 
+section:nth-child(2n -1) h5{
+    color: white;
+}
+
 section:nth-child(2n -1) ul li{
     color: white;
 }
@@ -37,5 +45,13 @@ section:nth-child(2n){
 }
 
 #dataCollection{
-    height: 50rem;
+    height: 43rem;
+}
+
+#dataCleaning{
+    height: 32rem;
+}
+
+#eda{
+    height: 106rem;
 }
