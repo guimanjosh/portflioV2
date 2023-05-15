@@ -91,11 +91,15 @@ header h2{
 }
 
 section{
-    height: 25rem;
+    height: 27rem;
+}
+
+section{
+    padding-top: 2rem;
 }
 
 section:nth-child(2n-1){
-    background-color: beige;
+    background-color: white;
 }
 
 section:nth-child(2n){
@@ -103,9 +107,13 @@ section:nth-child(2n){
 }
 
 #audience{
-    height:40rem;
+    height:43rem;
 }
 
 #prototyping{
-    height: 75rem;
+    height: 103rem;
+}
+
+#finalProduct{
+    height: 40rem;
 }
