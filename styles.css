@@ -15,7 +15,8 @@ section h2{
 
 #steamProject{
     background-image: url(images/steamgames.jpeg);
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
 }
 
 .project{
