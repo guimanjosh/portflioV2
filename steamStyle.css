@@ -55,3 +55,214 @@ section:nth-child(2n){
 #eda{
     height: 106rem;
 }
+@media only screen and (max-width: 1000px) {
+    header{
+        height: 30rem;
+        background-image: url("images/steamGamesLogo.jpeg");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    header h1{
+        color: white;
+        text-align: center;
+        padding-top: 16rem;
+    }
+    
+    h2{
+        padding-top: 1rem;
+    }
+    section{
+        height: 20rem;
+    }
+    
+    section:nth-child(2n-1){
+        background-color: #1b2838;
+    }
+    
+    section:nth-child(2n -1) h2{
+        color: white;
+    }
+    
+    section:nth-child(2n -1) p{
+        color: white;
+    }
+    
+    section:nth-child(2n -1) h5{
+        color: white;
+    }
+    
+    section:nth-child(2n -1) ul li{
+        color: white;
+    }
+    
+    section:nth-child(2n){
+        background-color: white;
+    } 
+
+    #overview{
+        height:21rem;
+    }
+    
+    #problemStatement{
+        height: 13rem;
+    }
+    
+    #dataCollection{
+        height: 100rem;
+    }
+    
+    #dataCleaning{
+        height: 32rem;
+    }
+    
+    #eda{
+        height: 225rem;
+    }
+
+    #conclusion{
+        height: 21rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    header{
+        height: 30rem;
+        background-image: url("images/steamGamesLogo.jpeg");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    header h1{
+        color: white;
+        text-align: center;
+        padding-top: 23rem;
+    }
+    
+    h2{
+        padding-top: 1rem;
+    }
+    section{
+        height: 20rem;
+    }
+    
+    section:nth-child(2n-1){
+        background-color: #1b2838;
+    }
+    
+    section:nth-child(2n -1) h2{
+        color: white;
+    }
+    
+    section:nth-child(2n -1) p{
+        color: white;
+    }
+    
+    section:nth-child(2n -1) h5{
+        color: white;
+    }
+    
+    section:nth-child(2n -1) ul li{
+        color: white;
+    }
+    
+    section:nth-child(2n){
+        background-color: white;
+    }
+    #overview{
+        height:26rem;
+    }
+    
+    #problemStatement{
+        height: 15rem;
+    }
+    
+    #dataCollection{
+        height: 80rem;
+    }
+    
+    #dataCleaning{
+        height: 32rem;
+    }
+    
+    #eda{
+        height: 180rem;
+    }
+
+    #conclusion{
+        height: 28rem;
+    } 
+}
+
+
+    
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        height: 30rem;
+        background-image: url("images/steamGamesLogo.jpeg");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    header h1{
+        color: white;
+        text-align: center;
+        padding-top: 23rem;
+    }
+    
+    h2{
+        padding-top: 1rem;
+    }
+    section{
+        height: 20rem;
+    }
+    
+    section:nth-child(2n-1){
+        background-color: #1b2838;
+    }
+    
+    section:nth-child(2n -1) h2{
+        color: white;
+    }
+    
+    section:nth-child(2n -1) p{
+        color: white;
+    }
+    
+    section:nth-child(2n -1) h5{
+        color: white;
+    }
+    
+    section:nth-child(2n -1) ul li{
+        color: white;
+    }
+    
+    section:nth-child(2n){
+        background-color: white;
+    }
+    
+    #overview{
+        height:28rem;
+    }
+    
+    #problemStatement{
+        height: 15rem;
+    }
+    
+    #dataCollection{
+        height: 75rem;
+    }
+    
+    #dataCleaning{
+        height: 32rem;
+    }
+    
+    #eda{
+        height: 170rem;
+    }
+
+    #conclusion{
+        height: 30rem;
+    }
+}
