@@ -2,6 +2,11 @@ html,body {
     margin:0;
     padding:0;
 }
+
+.bold{
+    font-weight: bold;
+}
+
 h1{
     text-align: center;
 }
@@ -33,6 +38,13 @@ header h2{
 
 #matsuriOverview{
     background-color: white;
+    border-style: solid;
+    border-radius: 6%;
+    border-width: thick;
+}
+
+#matsuriRole{
+    background-color: orange;
     border-style: solid;
     border-radius: 6%;
     border-width: thick;
@@ -92,11 +104,9 @@ header h2{
 
 section{
     height: 27rem;
-}
-
-section{
     padding-top: 2rem;
 }
+
 
 section:nth-child(2n-1){
     background-color: white;
@@ -117,3 +127,69 @@ section:nth-child(2n){
 #finalProduct{
     height: 40rem;
 }
+
+@media only screen and (max-width: 900px) {
+    section{
+        height: 40rem;
+    }
+    #audience{
+        height:100rem;
+    }
+    
+    #prototyping{
+        height: 170rem;
+    }
+    #oldMatsuriBG{
+        background-image: url("images/oldMatsuriBG.jpeg");
+        height: 14rem;
+        width: 28rem;
+        background-size: cover;
+    }
+    
+    #newMatsuriBG{
+        background-image: url("images/matsuribg.jpg");
+        height: 14rem;
+        width: 28rem;
+        background-size: cover;
+    }
+    #includeJapan2{
+        background-image: url("images/includeJapan2.png");
+        height:14rem;
+        width: 28rem;
+        background-size: cover;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    section{
+        height: 40rem;
+    }
+    #audience{
+        height:100rem;
+    }
+    
+    #prototyping{
+        height: 170rem;
+    }
+    #oldMatsuriBG{
+        background-image: url("images/oldMatsuriBG.jpeg");
+        height: 14rem;
+        width: 28rem;
+        background-size: cover;
+    }
+    
+    #newMatsuriBG{
+        background-image: url("images/matsuribg.jpg");
+        height: 14rem;
+        width: 28rem;
+        background-size: cover;
+    }
+    #includeJapan2{
+        background-image: url("images/includeJapan2.png");
+        height:14rem;
+        width: 28rem;
+        background-size: cover;
+        margin-top: 1rem;
+    }
+  }
